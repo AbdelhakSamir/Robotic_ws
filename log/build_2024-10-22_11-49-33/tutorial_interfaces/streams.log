@@ -1,0 +1,257 @@
+[0.635s] Invoking command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/abdelhak/Robotic_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/tutorial_interfaces
+[0.684s] -- The C compiler identification is GNU 11.4.0
+[0.736s] -- The CXX compiler identification is GNU 11.4.0
+[0.742s] -- Detecting C compiler ABI info
+[0.803s] -- Detecting C compiler ABI info - done
+[0.811s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.812s] -- Detecting C compile features
+[0.812s] -- Detecting C compile features - done
+[0.816s] -- Detecting CXX compiler ABI info
+[0.887s] -- Detecting CXX compiler ABI info - done
+[0.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.897s] -- Detecting CXX compile features
+[0.898s] -- Detecting CXX compile features - done
+[0.901s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.141s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.175s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.179s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.187s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.250s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.522s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.044s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.066s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.088s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.089s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.089s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.089s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.107s] -- Found PythonExtra: .so  
+[2.167s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.185s] -- Added test 'lint_cmake' to check CMake code style
+[2.186s] -- Added test 'xmllint' to check XML markup files
+[2.189s] -- Configuring done
+[2.225s] -- Generating done
+[2.227s] -- Build files have been written to: /home/abdelhak/Robotic_ws/build/tutorial_interfaces
+[2.234s] Invoked command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/abdelhak/Robotic_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/tutorial_interfaces
+[2.236s] Invoking command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelhak/Robotic_ws/build/tutorial_interfaces -- -j12 -l12
+[2.269s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.278s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.284s] [  4%] Built target ament_cmake_python_symlink_tutorial_interfaces
+[2.495s] running egg_info
+[2.495s] creating tutorial_interfaces.egg-info
+[2.496s] writing tutorial_interfaces.egg-info/PKG-INFO
+[2.496s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[2.496s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[2.496s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.498s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.498s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.518s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.612s] [  4%] Built target tutorial_interfaces__cpp
+[2.614s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[2.614s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[2.614s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[2.621s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.621s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.621s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.667s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[2.702s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[2.711s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.711s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.711s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.903s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[2.904s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[2.904s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[2.925s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[2.926s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[2.926s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[2.963s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.963s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[2.967s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.064s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.109s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.143s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.154s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.181s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[3.194s] [ 57%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.202s] [ 59%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[3.273s] [ 61%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.316s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.330s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[3.333s] [ 65%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.340s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[3.341s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[3.376s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.394s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[3.534s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.596s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.597s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[3.665s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.711s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.772s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.789s] [ 76%] Built target tutorial_interfaces
+[3.807s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.231s] [ 78%] Built target tutorial_interfaces__py
+[4.251s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[4.251s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[4.251s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[4.346s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[4.383s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[4.402s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.402s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.402s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.502s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.502s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.503s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.540s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.540s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.540s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.551s] Invoked command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelhak/Robotic_ws/build/tutorial_interfaces -- -j12 -l12
+[4.645s] Invoking command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelhak/Robotic_ws/build/tutorial_interfaces
+[4.651s] -- Install configuration: ""
+[4.651s] -- Execute custom install script
+[4.651s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[4.659s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[4.666s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[4.673s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[4.680s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[4.687s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[4.694s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[4.701s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[4.707s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.714s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[4.721s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[4.728s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[4.735s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[4.743s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[4.750s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[4.758s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[4.765s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[4.773s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[4.780s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.787s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[4.795s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[4.803s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[4.810s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[4.817s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[4.825s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[4.832s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[4.840s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[4.847s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[4.855s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[4.862s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[4.869s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[4.877s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[4.884s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[4.891s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[4.899s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.906s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.913s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[4.920s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[4.927s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.935s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[4.942s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[4.949s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[4.955s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.962s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[4.969s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[4.976s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.983s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.989s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.996s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.004s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[5.011s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[5.018s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.025s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.033s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[5.040s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[5.047s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[5.054s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[5.061s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[5.070s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[5.078s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[5.085s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[5.092s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[5.099s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.106s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.113s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.121s] -- Up-to-date symlink: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.121s] -- Up-to-date symlink: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.121s] -- Up-to-date symlink: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.121s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[5.129s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[5.136s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[5.143s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[5.150s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[5.157s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[5.164s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[5.171s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[5.178s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[5.185s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[5.192s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[5.199s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[5.205s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[5.212s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[5.219s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[5.226s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[5.234s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[5.241s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[5.247s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[5.254s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[5.261s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.268s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.275s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.282s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.289s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.296s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.303s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.310s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[5.317s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[5.324s] -- Symlinking: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[5.331s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.332s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.332s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.332s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.332s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.333s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.333s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.333s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.334s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.334s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.334s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.335s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.335s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.335s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.368s] Listing '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[5.368s] Listing '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[5.368s] Listing '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[5.368s] Compiling '/home/abdelhak/Robotic_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[5.371s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[5.372s] -- Set runtime path of "/home/abdelhak/Robotic_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[5.372s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[5.372s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.372s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.373s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[5.374s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.375s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[5.375s] -- Installing: /home/abdelhak/Robotic_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.377s] Invoked command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelhak/Robotic_ws/build/tutorial_interfaces

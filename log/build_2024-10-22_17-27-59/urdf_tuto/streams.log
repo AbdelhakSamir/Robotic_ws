@@ -1,0 +1,21 @@
+[0.791s] Invoking command in '/home/abdelhak/Robotic_ws/build/urdf_tuto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/python_parameters:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tuto -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tuto
+[0.854s] -- The C compiler identification is GNU 11.4.0
+[0.937s] -- The CXX compiler identification is GNU 11.4.0
+[0.947s] -- Detecting C compiler ABI info
+[1.011s] -- Detecting C compiler ABI info - done
+[1.018s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.018s] -- Detecting C compile features
+[1.019s] -- Detecting C compile features - done
+[1.022s] -- Detecting CXX compiler ABI info
+[1.095s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.103s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.107s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.351s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.429s] -- Added test 'lint_cmake' to check CMake code style
+[1.430s] -- Added test 'xmllint' to check XML markup files
+[1.431s] -- Configuring done
+[1.434s] -- Generating done
+[1.436s] -- Build files have been written to: /home/abdelhak/Robotic_ws/build/urdf_tuto

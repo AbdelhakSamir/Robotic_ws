@@ -1,0 +1,25 @@
+[0.551s] Invoking command in '/home/abdelhak/Robotic_ws/src/learning_tf2_py': PYTHONPATH=/home/abdelhak/Robotic_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/abdelhak/Robotic_ws/build/learning_tf2_py/build install --record /home/abdelhak/Robotic_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[0.781s] running egg_info
+[0.781s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.782s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.782s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.782s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.783s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.784s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.785s] running build_py
+[0.785s] running install
+[0.785s] running install_lib
+[0.786s] running install_data
+[0.786s] copying launch/turtle_tf2_demo.launch.py -> /home/abdelhak/Robotic_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[0.787s] running install_egg_info
+[0.788s] removing '/home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.788s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[0.789s] running install_scripts
+[0.805s] Installing static_turtle_tf2_broadcaster script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.806s] Installing turtle_tf2_broadcaster script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.806s] Installing turtle_tf2_listener script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.806s] writing list of installed files to '/home/abdelhak/Robotic_ws/build/learning_tf2_py/install.log'
+[0.834s] Invoked command in '/home/abdelhak/Robotic_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/abdelhak/Robotic_ws/build/learning_tf2_py/build install --record /home/abdelhak/Robotic_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

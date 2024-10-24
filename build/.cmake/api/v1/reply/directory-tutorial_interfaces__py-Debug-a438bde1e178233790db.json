@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interfaces__py",
+		"source" : "/home/abdelhak/Robotic_ws/build/tutorial_interfaces__py"
+	}
+}

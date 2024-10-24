@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.312s] -- Configuring incomplete, errors occurred!
+[0.313s] See also "/home/abdelhak/Robotic_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[0.313s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.313s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.313s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.313s]   CMake did not find one.
+[0.313s] 
+[0.313s]   Could not find a package configuration file provided by "catkin" with any
+[0.314s]   of the following names:
+[0.314s] 
+[0.314s]     catkinConfig.cmake
+[0.314s]     catkin-config.cmake
+[0.314s] 
+[0.314s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.314s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.314s]   provides a separate development package or SDK, be sure it has been
+[0.314s]   installed.
+[0.314s] 
+[0.314s] [0m
+[0.315s] Invoked command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial

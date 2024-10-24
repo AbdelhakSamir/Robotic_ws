@@ -1,0 +1,2 @@
+Invoking command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial
+Invoked command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial

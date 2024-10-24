@@ -1,0 +1,20 @@
+[0.950s] Invoking command in '/home/abdelhak/Robotic_ws/build/py_pubsub': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/py_pubsub/build --no-deps symlink_data
+[1.179s] running develop
+[1.180s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.180s]   warnings.warn(
+[1.318s] running egg_info
+[1.318s] writing py_pubsub.egg-info/PKG-INFO
+[1.319s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[1.319s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[1.319s] writing requirements to py_pubsub.egg-info/requires.txt
+[1.319s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[1.321s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[1.322s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[1.323s] running build_ext
+[1.324s] Creating /home/abdelhak/Robotic_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[1.324s] Installing listener script to /home/abdelhak/Robotic_ws/install/py_pubsub/lib/py_pubsub
+[1.324s] Installing talker script to /home/abdelhak/Robotic_ws/install/py_pubsub/lib/py_pubsub
+[1.325s] 
+[1.325s] Installed /home/abdelhak/Robotic_ws/build/py_pubsub
+[1.325s] running symlink_data
+[1.362s] Invoked command in '/home/abdelhak/Robotic_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/py_pubsub/build --no-deps symlink_data

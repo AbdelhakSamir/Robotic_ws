@@ -1,0 +1,21 @@
+[0.561s] Invoking command in '/home/abdelhak/Robotic_ws/build/urdf_tuto': PYTHONPATH=/home/abdelhak/Robotic_ws/build/urdf_tuto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/urdf_tuto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/urdf_tuto/build --no-deps symlink_data --force
+[0.800s] running develop
+[0.800s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.801s]   warnings.warn(
+[0.948s] running egg_info
+[0.948s] writing urdf_tuto.egg-info/PKG-INFO
+[0.948s] writing dependency_links to urdf_tuto.egg-info/dependency_links.txt
+[0.948s] writing entry points to urdf_tuto.egg-info/entry_points.txt
+[0.948s] writing requirements to urdf_tuto.egg-info/requires.txt
+[0.948s] writing top-level names to urdf_tuto.egg-info/top_level.txt
+[0.951s] reading manifest file 'urdf_tuto.egg-info/SOURCES.txt'
+[0.951s] writing manifest file 'urdf_tuto.egg-info/SOURCES.txt'
+[0.953s] running build_ext
+[0.953s] Creating /home/abdelhak/Robotic_ws/install/urdf_tuto/lib/python3.10/site-packages/urdf-tuto.egg-link (link to .)
+[0.953s] 
+[0.953s] Installed /home/abdelhak/Robotic_ws/build/urdf_tuto
+[0.953s] running symlink_data
+[0.954s] symbolically linking /home/abdelhak/Robotic_ws/build/urdf_tuto/resource/urdf_tuto -> /home/abdelhak/Robotic_ws/install/urdf_tuto/share/ament_index/resource_index/packages
+[0.954s] symbolically linking /home/abdelhak/Robotic_ws/build/urdf_tuto/package.xml -> /home/abdelhak/Robotic_ws/install/urdf_tuto/share/urdf_tuto
+[0.954s] symbolically linking /home/abdelhak/Robotic_ws/build/urdf_tuto/launch/robot_launch.py -> /home/abdelhak/Robotic_ws/install/urdf_tuto/share/urdf_tuto/launch
+[0.974s] Invoked command in '/home/abdelhak/Robotic_ws/build/urdf_tuto' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/urdf_tuto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/urdf_tuto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/urdf_tuto/build --no-deps symlink_data --force

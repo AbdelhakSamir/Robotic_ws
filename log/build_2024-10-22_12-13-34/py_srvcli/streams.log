@@ -1,0 +1,39 @@
+[0.740s] Invoking command in '/home/abdelhak/Robotic_ws/build/py_srvcli': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/abdelhak/Robotic_ws/build/py_srvcli/build
+[0.961s] running develop
+[0.961s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.962s]   warnings.warn(
+[1.097s] Removing /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py-srvcli.egg-link (link to .)
+[1.117s] Invoked command in '/home/abdelhak/Robotic_ws/build/py_srvcli' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/abdelhak/Robotic_ws/build/py_srvcli/build
+[1.119s] Invoking command in '/home/abdelhak/Robotic_ws/src/py_srvcli': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/abdelhak/Robotic_ws/build/py_srvcli/build install --record /home/abdelhak/Robotic_ws/build/py_srvcli/install.log --single-version-externally-managed install_data --force
+[1.337s] running egg_info
+[1.338s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.338s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.338s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.339s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.339s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.341s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.341s] adding license file 'LICENSE'
+[1.342s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.342s] running build
+[1.342s] running build_py
+[1.342s] copying py_srvcli/service_member_function.py -> /home/abdelhak/Robotic_ws/build/py_srvcli/build/lib/py_srvcli
+[1.342s] copying py_srvcli/client_member_function.py -> /home/abdelhak/Robotic_ws/build/py_srvcli/build/lib/py_srvcli
+[1.342s] running install
+[1.343s] running install_lib
+[1.343s] creating /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.343s] copying /home/abdelhak/Robotic_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.343s] copying /home/abdelhak/Robotic_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.344s] copying /home/abdelhak/Robotic_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.344s] byte-compiling /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.344s] byte-compiling /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[1.345s] byte-compiling /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[1.345s] running install_data
+[1.345s] copying resource/py_srvcli -> /home/abdelhak/Robotic_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[1.345s] copying package.xml -> /home/abdelhak/Robotic_ws/install/py_srvcli/share/py_srvcli
+[1.345s] running install_egg_info
+[1.347s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.347s] running install_scripts
+[1.367s] Installing client script to /home/abdelhak/Robotic_ws/install/py_srvcli/lib/py_srvcli
+[1.367s] Installing service script to /home/abdelhak/Robotic_ws/install/py_srvcli/lib/py_srvcli
+[1.367s] writing list of installed files to '/home/abdelhak/Robotic_ws/build/py_srvcli/install.log'
+[1.390s] Invoked command in '/home/abdelhak/Robotic_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/abdelhak/Robotic_ws/build/py_srvcli/build install --record /home/abdelhak/Robotic_ws/build/py_srvcli/install.log --single-version-externally-managed install_data --force

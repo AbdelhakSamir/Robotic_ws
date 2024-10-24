@@ -1,0 +1,21 @@
+[0.548s] Invoking command in '/home/abdelhak/Robotic_ws/build/learning_tf2_py': PYTHONPATH=/home/abdelhak/Robotic_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/learning_tf2_py/build --no-deps symlink_data
+[0.788s] running develop
+[0.789s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.789s]   warnings.warn(
+[0.928s] running egg_info
+[0.928s] writing learning_tf2_py.egg-info/PKG-INFO
+[0.928s] writing dependency_links to learning_tf2_py.egg-info/dependency_links.txt
+[0.929s] writing entry points to learning_tf2_py.egg-info/entry_points.txt
+[0.929s] writing requirements to learning_tf2_py.egg-info/requires.txt
+[0.929s] writing top-level names to learning_tf2_py.egg-info/top_level.txt
+[0.930s] reading manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[0.932s] running build_ext
+[0.932s] Creating /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning-tf2-py.egg-link (link to .)
+[0.933s] Installing static_turtle_tf2_broadcaster script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.934s] Installing turtle_tf2_broadcaster script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.934s] Installing turtle_tf2_listener script to /home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.934s] 
+[0.934s] Installed /home/abdelhak/Robotic_ws/build/learning_tf2_py
+[0.935s] running symlink_data
+[0.953s] Invoked command in '/home/abdelhak/Robotic_ws/build/learning_tf2_py' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdelhak/Robotic_ws/build/learning_tf2_py/build --no-deps symlink_data

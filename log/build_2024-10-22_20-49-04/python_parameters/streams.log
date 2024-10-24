@@ -1,0 +1,22 @@
+[6.810s] Invoking command in '/home/abdelhak/Robotic_ws/src/python_parameters': PYTHONPATH=/home/abdelhak/Robotic_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/abdelhak/Robotic_ws/build/python_parameters/build install --record /home/abdelhak/Robotic_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[7.087s] running egg_info
+[7.088s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[7.088s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[7.088s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[7.089s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[7.089s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[7.092s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.092s] adding license file 'LICENSE'
+[7.092s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.092s] running build
+[7.093s] running build_py
+[7.094s] running install
+[7.095s] running install_lib
+[7.095s] running install_data
+[7.095s] running install_egg_info
+[7.098s] removing '/home/abdelhak/Robotic_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[7.098s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/abdelhak/Robotic_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[7.100s] running install_scripts
+[7.126s] Installing minimal_param_node script to /home/abdelhak/Robotic_ws/install/python_parameters/lib/python_parameters
+[7.126s] writing list of installed files to '/home/abdelhak/Robotic_ws/build/python_parameters/install.log'
+[7.166s] Invoked command in '/home/abdelhak/Robotic_ws/src/python_parameters' returned '0': PYTHONPATH=/home/abdelhak/Robotic_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelhak/Robotic_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/abdelhak/Robotic_ws/build/python_parameters/build install --record /home/abdelhak/Robotic_ws/build/python_parameters/install.log --single-version-externally-managed install_data

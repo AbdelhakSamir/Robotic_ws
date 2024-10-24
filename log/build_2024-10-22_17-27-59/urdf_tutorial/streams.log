@@ -1,0 +1,21 @@
+[0.804s] Invoking command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial
+[0.818s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.818s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.819s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.819s]   CMake did not find one.
+[0.819s] 
+[0.819s]   Could not find a package configuration file provided by "catkin" with any
+[0.819s]   of the following names:
+[0.819s] 
+[0.819s]     catkinConfig.cmake
+[0.820s]     catkin-config.cmake
+[0.820s] 
+[0.820s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.821s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.821s] -- Configuring incomplete, errors occurred!
+[0.821s] See also "/home/abdelhak/Robotic_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[0.822s]   provides a separate development package or SDK, be sure it has been
+[0.822s]   installed.
+[0.822s] 
+[0.822s] [0m
+[0.822s] Invoked command in '/home/abdelhak/Robotic_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/abdelhak/Robotic_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/urdf_tutorial

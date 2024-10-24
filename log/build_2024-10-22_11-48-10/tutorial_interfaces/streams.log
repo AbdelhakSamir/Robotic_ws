@@ -1,0 +1,36 @@
+[0.636s] Invoking command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/abdelhak/Robotic_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/tutorial_interfaces
+[0.649s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.763s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.784s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.786s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.792s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.848s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.162s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.728s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.750s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.750s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.787s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.797s] -- Added test 'lint_cmake' to check CMake code style
+[1.798s] -- Added test 'xmllint' to check XML markup files
+[1.801s] -- Configuring done
+[1.838s] -- Generating done
+[1.842s] -- Build files have been written to: /home/abdelhak/Robotic_ws/build/tutorial_interfaces
+[1.848s] Invoked command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/abdelhak/Robotic_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdelhak/Robotic_ws/install/tutorial_interfaces
+[1.851s] Invoking command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelhak/Robotic_ws/build/tutorial_interfaces -- -j12 -l12
+[1.887s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[1.898s] failed to create symbolic link '/home/abdelhak/Robotic_ws/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces' because existing path cannot be removed: Is a directory
+[1.898s] [ 10%] Built target tutorial_interfaces__rosidl_generator_c
+[1.899s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces] Error 1
+[1.899s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/all] Error 2
+[1.899s] gmake[1]: *** Waiting for unfinished jobs....
+[1.899s] [ 12%] Built target tutorial_interfaces__cpp
+[1.908s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.923s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[1.924s] gmake: *** [Makefile:146: all] Error 2
+[1.926s] Invoked command in '/home/abdelhak/Robotic_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelhak/Robotic_ws/install/py_srvcli:/home/abdelhak/Robotic_ws/install/py_pubsub:/home/abdelhak/Robotic_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelhak/Robotic_ws/build/tutorial_interfaces -- -j12 -l12
